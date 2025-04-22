@@ -1,30 +1,55 @@
-# Number_guessing
-# 🎯 Number Guessing Game - Python
+# 🎯 Number Guessing Game (Python)
 
-A simple number guessing game built using Python. The program generates a random number, and the player tries to guess it. The game provides hints whether the guessed number is too high or too low.
+A simple and fun number guessing game written in Python where the user tries to guess a randomly chosen number between 1 and 100 in 5 attempts. With every guess, the game gives a hint by narrowing down the range, helping you get closer to the correct answer!
 
-## 🚀 Features
-- Random number generation
-- User input with validation
-- Hint messages for each guess
-- Counts number of attempts
+---
 
-## 🧠 How It Works
-1. The computer picks a random number between 1 and 100.
-2. The user tries to guess the number.
-3. After each guess, the program provides a hint:
-   - "Too high!" or "Too low!"
-4. When the user guesses correctly, the total number of attempts is displayed.
+## 🚀 How to Play
 
-## 💻 Technologies Used
-- Python 3
-- Random module
-- CLI (Command Line Interface)
+1. The program randomly selects a number between 1 and 100.
+2. You have **5 attempts** to guess the number.
+3. After each guess, you'll get a hint:
+   - Whether your guess is too high or too low.
+   - The updated range in which the correct number lies.
+4. If you guess it right — 🎉 you win!
+5. If not — ❌ game over, and the correct number is revealed.
 
-## 📦 How to Run
-1. Make sure Python is installed on your system.
-2. Clone this repository or copy the code below.
-3. Run the script:
+---
 
-```bash
-python number_guessing_game.py
+## 🧠 Example Gameplay
+
+🎯 Welcome to the Number Guessing Game! I'm thinking of a number between 1 and 100. Enter a guess: 80 Number is in between 0 and 80, too high, try again 4 attempts left
+
+Enter a guess: 50 Number is in between 50 and 80, too low, try again 3 attempts left
+
+Enter a guess: 60 Number is in between 60 and 80, too low, try again 2 attempts left
+
+Enter a guess: 70 Number is in between 60 and 70, too high, try again 1 attempts left
+
+Enter a guess: 65 ❌ You failed. The number was 69
+
+💡 Hints for Players
+Think logically: each guess gives you a narrower range.
+
+Don't repeat guesses; use the hint wisely.
+
+You only have 5 chances, make each guess count!
+
+📂 File Info
+number_guess.py — Main Python script for the game.
+
+🙌 Contribution
+Feel free to fork the repo and contribute more features like:
+
+Difficulty levels
+
+GUI version
+
+Score tracking
+
+Unlimited mode
+
+📜 License
+This project is open-source and free to use. No license applied.
+
+
